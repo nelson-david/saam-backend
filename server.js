@@ -1,5 +1,5 @@
 const database = require("./app/database/database");
-const config = require("./config")["development"];
+const config = require("./config")["production"];
 // production development
 const Application = require("./app/app");
 const app = Application(database, config);
